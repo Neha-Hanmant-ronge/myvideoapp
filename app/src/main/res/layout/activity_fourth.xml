@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#100F0F"
+    >
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="333dp"
+        android:layout_height="418dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="166dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="My_Video_App"
+        android:textColor="#F30E0E"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+</RelativeLayout>
